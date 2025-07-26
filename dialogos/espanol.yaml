@@ -1,0 +1,97 @@
+botones_estandar:
+  menu principal:
+    actualidad: 📰 Actualidad
+    noticias pasadas: 📜 Noticias Pasadas
+    voz ciudadana: 🗣️ Voz Ciudadana
+    quienes somos: 👥 ¿Quiénes Somos?
+    preguntas frecuentes: ❓Preguntas Frecuentes
+    politica de privacidad: 🔒 Politica de Privacidad
+    aviso legal: ⚖️ Aviso Legal
+    
+  voz_ciudadana:
+    reportes en el terreno: 📢 Reportes en el Terreno
+    historias: 📖 Historias
+    opiniones: 💬 Opiniones
+    crear articulo: 📝 Crear Articulo
+
+  volver: 🔙 Volver
+
+dialogos_estandar:
+  menu principal: |
+    Bienvenido, en este espacio encontrara una recopilación de noticias relacionadas con Venezuela.
+
+  voz ciudadana: |
+    *Voz ciudadana*
+    
+    En esta sección encontrarás artículos generados por otros usuarios de este bot.
+
+    El objetivo es ofrecer un espacio de libre expresión sobre la situación actual y pasada de Venezuela.
+
+    Por favor, antes de crear un artículo vease: TODO
+
+  quienes somos: |
+    *¿Quiénes somos?*
+  
+    Puede ver el video "Proyecto BAV - ¿Quiénes Somos?" en el siguiente enlace: TODO
+
+  preguntas frecuentes: |
+    *Preguntas Frecuentes*
+
+    *1. ¿Por qué se usa Telegram?*
+    Telegram ofrece varias ventajas frente a otras plataformas. Fue seleccionado principalmente por su enfoque en la privacidad, su popularidad (lo que dificulta la censura) y la facilidad para crear bots personalizados.
+    
+    *2. ¿Qué ocurriría si censuran Telegram en Venezuela?*
+    Se habilitaría una página web accesible a través de la red Tor, con una dirección .onion.
+    
+    *3. ¿Quiénes crean las noticias?*
+    En la sección Actualidad, un bot recopila noticias de diversas fuentes confiables. En las secciones Voz Ciudadana y Noticias Pasadas, el contenido es generado por usuarios del bot.
+    
+    *4. ¿Hay algún sistema de moderación?*
+    Sí. El bot utiliza un sistema de votación:
+    
+    Cuando un artículo es publicado, otros usuarios pueden votar a favor o en contra.
+    
+    Si recibe suficientes votos negativos, se revierte automáticamente.
+    
+    Si obtiene más votos positivos, se aprueba de forma automática.
+    Durante las primeras 24 horas tras su aprobación, un moderador puede eliminarlo si incumple las normas de la sección.
+    
+    *5. ¿Este bot tiene alguna afiliación política?*
+    No. Es un proyecto completamente independiente y sin vínculos con partidos políticos.
+    
+    *6. ¿Qué tipo de contenido no está permitido?*
+    Se eliminará cualquier contenido que promueva odio, violencia, desinformación o que vulnere los derechos de otras personas.
+
+    📩 *¿Tienes más preguntas?*
+    Puedes escribirme directamente a: hm.smile@outlook.com
+
+  politica de privacidad: |
+    Este bot recopila únicamente el ID de usuario de Telegram, con el único propósito de identificar a los usuarios y prevenir abusos en el sistema.
+
+    Los IDs se almacenan de forma local en un archivo JSON cifrado, al que no tiene acceso nadie fuera del sistema del bot.
+    
+    La base de datos de artículos (excluyendo los datos personales) se publica en un repositorio de GitHub, por lo tanto, el contenido que envíes puede ser visible públicamente.
+    
+    No se recopila ni comparte ningún otro dato personal. Al usar este bot, aceptas esta política.
+
+  aviso legal: |
+    Este proyecto, Bot Actualidad Venezuela, es una iniciativa independiente y sin fines de lucro. No está afiliado a ningún partido político, institución gubernamental ni medio de comunicación.
+
+    El contenido generado por los usuarios es responsabilidad exclusiva de quienes lo publican. Aunque se aplican mecanismos de moderación, no se garantiza la veracidad o exactitud de todos los textos.
+    
+    La base de datos de noticias y la documentación del proyecto se publican sin licencia específica: su uso es libre y abierto. Aun así, se agradece que se otorguen créditos al proyecto “Bot Actualidad Venezuela” al reutilizar o difundir dicho contenido.
+    
+    El código del bot está disponible públicamente y se distribuye bajo la licencia MIT, lo que permite su uso, modificación y redistribución con libertad, siempre que se mantenga el aviso de copyright correspondiente.
+    
+    El uso de esta plataforma implica la aceptación de estos términos.
+
+  leer articulo: |
+    *{titulo}*
+
+    *Información del artículo*
+    *Creador:* _{creador}_
+    *Fecha:* _{fecha}_
+    *Referencia:* _{referencia}_
+
+    *Contenido del artículo*
+    {texto}
