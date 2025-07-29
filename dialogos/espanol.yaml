@@ -2,6 +2,7 @@ botones_estandar:
   menu principal:
     actualidad: 📰 Actualidad
     noticias pasadas: 📜 Noticias Pasadas
+    terminamos: 🔍 ¿Cómo terminamos así?
     voz ciudadana: 🗣️ Voz Ciudadana
     quienes somos: 👥 ¿Quiénes Somos?
     preguntas frecuentes: ❓Preguntas Frecuentes
@@ -44,7 +45,7 @@ dialogos_estandar:
     Se habilitaría una página web accesible a través de la red Tor, con una dirección .onion.
     
     *3. ¿Quiénes crean las noticias?*
-    En la sección Actualidad, un bot recopila noticias de diversas fuentes confiables. En las secciones Voz Ciudadana y Noticias Pasadas, el contenido es generado por usuarios del bot.
+    En la sección Actualidad, un bot recopila noticias de diversas fuentes confiables. En las demás secciones son creadas principalmente por los usarios, se apllica sistemas de moderación del contenido para garantizar la calidad del mismo
     
     *4. ¿Hay algún sistema de moderación?*
     Sí. El bot utiliza un sistema de votación:
@@ -95,3 +96,17 @@ dialogos_estandar:
 
     *Contenido del artículo*
     {texto}
+
+  terminamos: |
+    *¿Cómo terminamos así?*
+
+    El objetivo principal de esta sección es ofrecer un espacio que funcione como memoria histórica del ascenso de la dictadura, con la intención de que personas de otros países puedan identificar señales similares a las ocurridas en Venezuela y así intentar prevenir la llegada de regímenes autoritarios al poder.
+
+    Antes de crear un articulo consulte: TODO
+
+  noticias pasadas: |
+    *Noticias Pasadas*
+
+    El propósito principal de esta sección es ofrecer un espacio dedicado a noticias de interés general que ocurrieron en el pasado y que, por el paso del tiempo, han desaparecido de los medios de comunicación tradicionales. La intención es evitar que estas noticias caigan en el olvido, preservando así el valor y significado que tuvieron en su momento.
+
+    Antes de crear un articulo consulte: TODO
