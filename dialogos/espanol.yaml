@@ -113,3 +113,15 @@ dialogos_estandar:
     *Actualidad*
 
     Esta sección aún no esta disponible
+
+  escribir mensaje: En que sección va tu articulo. Si no sabes que sección seleccionar entre al siguiente enlace: TODO
+
+  recibir mensaje: |
+    error seccion: [ERROR] No existe esa sección. Solo existe: reportes, opiniones, historias. A continuación diga su selección.
+    error inesperado: [ERROR] Mensaje enviado de forma inesperada
+    titulo: Perfecto. Ahora dime que titulo quieres usar.
+    nick: Perfecto. Ahora dime que nick quieres usar.
+    fecha: Perfecto. Ahora dime la fecha. Ejemplo 27/07/2025.
+    referencias: Perfecto. Ahora dime que referencias usaste. Si no usastes pon no, si usastes varias separalas usando punto y coma ;. Para evitar problemas de copyright, si usas referencias haz un resumen del contenido.
+    texto: Perfecto. Ahora dime el texto de la noticia.
+    exito: Tú noticia a sido guardada con exito.
