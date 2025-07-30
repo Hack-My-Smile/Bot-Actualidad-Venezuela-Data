@@ -14,6 +14,15 @@ botones_estandar:
     opiniones: 💬 Opiniones
     crear articulo: 📝 Crear Articulo
 
+  noticias pasadas:
+    economia: 💰 Economía
+    elecciones: 🗳️ Elecciones
+    politica interna: 🏛️ Política interna
+    politica exterior: 🌍 Politica exterior
+    justicia: ⚖️ Justicia
+    social: 🧍 Social
+    investigaciones externas: 🔍 Investigaciones externas
+
   volver: 🔙 Volver
 
 dialogos_estandar:
