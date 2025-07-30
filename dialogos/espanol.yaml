@@ -2,7 +2,6 @@ botones_estandar:
   menu principal:
     actualidad: 📰 Actualidad
     noticias pasadas: 📜 Noticias Pasadas
-    terminamos: 🔍 ¿Cómo terminamos así?
     voz ciudadana: 🗣️ Voz Ciudadana
     quienes somos: 👥 ¿Quiénes Somos?
     preguntas frecuentes: ❓Preguntas Frecuentes
@@ -94,13 +93,6 @@ dialogos_estandar:
 
     *Contenido del artículo*
     {texto}
-
-  terminamos: |
-    *¿Cómo terminamos así?*
-
-    El objetivo principal de esta sección es ofrecer un espacio que funcione como memoria histórica del ascenso de la dictadura, con la intención de que personas de otros países puedan identificar señales similares a las ocurridas en Venezuela y así intentar prevenir la llegada de regímenes autoritarios al poder.
-
-    Antes de crear un articulo consulte
 
   noticias pasadas: |
     *Noticias Pasadas*
