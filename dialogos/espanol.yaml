@@ -118,7 +118,7 @@ dialogos_estandar:
   escribir mensaje: En que sección va tu articulo. Si no sabes que sección seleccionar entre al siguiente enlace
 
   recibir mensaje:
-    error seccion: "[ERROR] No existe esa sección. Solo existe: reportes, opiniones, historias. A continuación diga su selección."
+    error seccion: "[ERROR] No existe esa sección. Compruebe como se escribe la selección. A continuación diga su selección."
     error inesperado: "[ERROR] Mensaje enviado de forma inesperada"
     titulo: "Perfecto. Ahora dime que titulo quieres usar."
     nick: "Perfecto. Ahora dime que nick quieres usar."
