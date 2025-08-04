@@ -23,6 +23,10 @@ botones_estandar:
     social: 🧍 Social
     investigaciones externas: 🔍 Investigaciones externas
 
+  seleccionar articulo:
+    siguiente: Siguiente Página
+    anterior: Página Anterior
+
   volver: 🔙 Volver
 
 dialogos_estandar:
@@ -130,7 +134,7 @@ dialogos_estandar:
       ⚠️ *Tu mensaje es demasiado largo* (más de 4096 caracteres permitidos por Telegram).
 
       Para compartir contenido extenso, *solo se permite Google Drive* por razones de seguridad.  
-      🔗 Sube tu archivo o texto completo a [Google Drive](https://drive.google.com/) y pega aquí:
+      🔗 Sube tu archivo o texto completo a [Google Drive](https://drive.google.com/) y escribe:
       
       1. En referencias pon el *enlace público* al archivo (asegúrate de que sea visible para cualquiera con el enlace).
       2. En contenido pon un *resumen breve* del contenido.
