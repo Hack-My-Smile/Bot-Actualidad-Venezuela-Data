@@ -126,3 +126,14 @@ dialogos_estandar:
     referencias: "Perfecto. Ahora dime que referencias usaste. Si no usastes pon no, si usastes varias separalas usando punto y coma ;. Para evitar problemas de copyright, si usas referencias haz un resumen del contenido."
     texto: "Perfecto. Ahora dime el texto de la noticia."
     exito: "Tú noticia a sido guardada con exito."
+    error mensaje largo: |
+      ⚠️ *Tu mensaje es demasiado largo* (más de 4096 caracteres permitidos por Telegram).
+
+      Para compartir contenido extenso, *solo se permite Google Drive* por razones de seguridad.  
+      🔗 Sube tu archivo o texto completo a [Google Drive](https://drive.google.com/) y pega aquí:
+      
+      1. En referencias pon el *enlace público* al archivo (asegúrate de que sea visible para cualquiera con el enlace).
+      2. En contenido pon un *resumen breve* del contenido.
+  
+      ❌ No se aceptan enlaces a otras plataformas ni servidores propios.
+      ✅ Esto evita la propagación de archivos maliciosos o sitios falsos. ¡Gracias por entender!
